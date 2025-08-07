@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Lab.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="title">Cafe Lab.</a>
+
+        <ul class="nav">
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#about">about</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="index.html#access">access</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact wrapper" id="contact">
+            <h3 class="section-title">contact</h3>
+            <p>回答には数日いただくことがございます。また、土日祝日・年末年始ほか・当社休業日にいただくお問い合わせについては、翌営業日以降の回答となりますので予めご了承ください。</p>
+
+            <dl>
+                <dt><label for="name">NAME</label></dt>
+                <dd><input type="text" id="name"></dd>
+                <dt><label for="e-mail">E-mail</label></dt>
+                <dd><input type="text" id="e-mail"></dd>
+                <dt><label for="message">MESSAGE</label></dt>
+                <dd><textarea id="message"></textarea></dd>
+            </dl>
+            <input type="submit" class="submit-btn" value="送信">
+        </section>
+
+    </main>
+
+    <footer>
+        <ul class="sns">
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.instagram.com">Instagram</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+        </ul>
+        <p>©Cafe Lab.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
