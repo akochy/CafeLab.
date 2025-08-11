@@ -24,6 +24,7 @@ li {
 
 main {
     margin-bottom: 200px;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 /*header*/
@@ -108,6 +109,7 @@ header .nav a:hover {
     align-items: center;
     padding-top: 54px;
     padding-inline: 20px;
+    padding-bottom: 30px;
     justify-content: space-between;
 }
 
@@ -296,6 +298,7 @@ textarea {
 @media(max-width: 780px) {
 
     header {
+        /*max-width: 100%;*/
         padding-inline: 20px;
     }
 
@@ -389,6 +392,15 @@ textarea {
     }*/
     #about .contents {
         flex-direction: column;
+    }
+
+    #about .contents .text {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+
+    #about .contents img {
+        width: 80%;
     }
 
     #menu .items {
