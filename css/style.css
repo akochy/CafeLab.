@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
 img {
     object-fit: cover;
     max-width: 100%;
@@ -438,5 +442,6 @@ textarea {
     #contact dd {
         width: 100%;
     }
+
 
 }
